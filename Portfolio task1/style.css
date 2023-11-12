@@ -6,6 +6,7 @@
 }
 body{
     color: white;
+
 }
 .header{
     position: fixed;
@@ -22,7 +23,7 @@ body{
 .logo{
     position: relative;
     font-size: 25px;
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     margin-left: -30px;
@@ -30,7 +31,7 @@ body{
 .navbar a{
    display: inline-block;
    font-size: 25px;
-   color: black;
+   color: white;
    text-decoration: none;
    margin-left: 35px;
    transition: .3s;
@@ -43,6 +44,9 @@ body{
     .navbar a{
         font-size: 20px;
         margin-left: 0px;
+        justify-content: space-between;
+    }
+    img{
         
     }
 }
@@ -51,5 +55,18 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+    background: url("https://i.pinimg.com/originals/09/8b/02/098b02b3138104e753440a7655ac38d5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
     
+}
+.home-content{
+   margin-top: 100px;
+}
+img{
+    border-radius: 50%;
+    transform: translate(350%,-70%);
 }
