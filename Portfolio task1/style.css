@@ -44,6 +44,65 @@ body{
     color: skyblue;
 
 }
+.about-p{
+    color: black;
+}
+.about-text{
+    align-items: center;
+    text-align: center;
+}
+.about{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+.span-about{
+   color: aqua;
+   font-size: 30px;
+}
+
+.about-h1{
+    color: black;
+    transition: 3s ease-in-out;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.table-about{
+    color: black;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    border: 2px solid aqua;
+   
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid;
+  }
+  
+.about-my{
+    color: black;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.about li{
+    font-size: 25px;
+}
+.about-h2{
+    color: black;
+    margin-top: 20px;
+}
 @media(max-width: 650px){
     .navbar a{
         font-size: 20px;
@@ -52,10 +111,16 @@ body{
         
     }
     .home-content{
-        transform: translateY(10%);
+        transform: translateY(-9%);
     }
-    img{
-
+    .home-img{
+       display: none;
+    }
+    table{
+        margin-left: 20px;
+    }
+    .about-img1{
+        transform: translateX(7%);
     }
 
 }
@@ -138,6 +203,7 @@ button:hover{
     border-radius: 20px;
     margin-top: 10px;
     margin-left: 20px;
+    border: 3px solid black;
 }
 @keyframes slideRight{
     0%{
