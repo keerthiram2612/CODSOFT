@@ -47,7 +47,7 @@ body{
         justify-content: space-between;
     }
     img{
-        
+
     }
 }
 .home{
@@ -64,9 +64,36 @@ body{
     
 }
 .home-content{
-   margin-top: 100px;
+   margin-top: 180px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
 }
 img{
     border-radius: 50%;
-    transform: translate(350%,-70%);
+    transform: translate(350%,-100%);
+    border: 2px solid skyblue;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid skyblue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: skyblue;
+    text-decoration: none;
+    margin:30px 15px 10px 0;
 }
