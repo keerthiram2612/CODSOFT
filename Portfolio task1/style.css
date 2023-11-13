@@ -56,31 +56,38 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+    float: right;
+    background-color: black;
+    border-top: 2px solid white;
+}  
+.about-h4{
+    font-size: 28px;
+    margin-top: 20px;
+    color: black;
 
 }
-
 .span-about{
-   color: aqua;
+   color: white;
    font-size: 30px;
 }
 
 .about-h1{
     color: black;
-    transition: 3s ease-in-out;
     font-size: 30px;
     text-decoration: underline;
 }
 .table-about{
-    color: black;
+    color: white;
     
 }
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
-    margin-left: 25%;
-    margin-top: 20px;
+    margin-left: 10%;
+    margin-top: 50px;
     border: 2px solid aqua;
+    color: white;
    
   }
   
@@ -93,15 +100,29 @@ table {
   
 .about-my{
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 5px;
 }
 .about li{
-    font-size: 25px;
+    font-size: 20px;
 }
 .about-h2{
     color: black;
     margin-top: 20px;
+}
+.about-img{
+    width: 600px;
+    background-color: black;
+    margin-left: 90px;
+}
+.about-text{
+    width: 500px;
+    height: 350px;
+    float: right;
+    margin-top: 60px;
+    transform: translate(-40%, -50%);
+    background-color: aqua;
+    border-radius: 20px;
 }
 @media(max-width: 650px){
     .navbar a{
@@ -204,6 +225,34 @@ button:hover{
     margin-top: 10px;
     margin-left: 20px;
     border: 3px solid black;
+}
+.journey{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    transform: translateX(20%);
+    font-size: 25px;
+    border-radius: 20px;
+}
+.journey-h2{
+    color: black;
+    font-size: 28px;
+    margin: 10px;
+}
+.journey-p{
+    font-size: 20px;
+}
+
+.img-jour{
+    width: 230px;
+    height: 200px;
+    transform: translateX(170%);
 }
 @keyframes slideRight{
     0%{
