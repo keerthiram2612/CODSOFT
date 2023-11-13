@@ -138,10 +138,17 @@ table {
        display: none;
     }
     table{
-        margin-left: 20px;
+        margin-left:-20px;
     }
     .about-img1{
-        transform: translateX(7%);
+        transform: translateX(-0%);
+        width: 240px;
+    }
+    .about-text{
+        width: 400px;
+        height: 330px;
+        transform: translateX(-10%);
+        margin-top: 10px;
     }
 
 }
