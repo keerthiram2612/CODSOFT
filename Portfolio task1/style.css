@@ -70,6 +70,11 @@ body{
     font-size: 32px;
     font-weight: 700;
 }
+.home-content h3 span{
+    color: skyblue;
+    transition: ease-in-out 2s;
+    
+}
 .home-content h1{
     font-size: 56px;
     font-weight: 700;
@@ -96,4 +101,9 @@ img{
     color: skyblue;
     text-decoration: none;
     margin:30px 15px 10px 0;
+}
+.home-sci a:hover{
+    background: skyblue;
+    color: black;
+    box-shadow: 0 0 20px skyblue;
 }
