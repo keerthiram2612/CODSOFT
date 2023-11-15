@@ -11,12 +11,19 @@
 <body>
     <header class ="header">
        <a href ="#" class ="logo">Portfolio</a> 
+       <div class="nav-menu">
        <nav class = "navbar">
-        <a href ="#" style="--i:1" class="active">Home</a>
-        <a href = "#" style="--i:2">About</a>
-        <a href = "#" style="--i:3">Skill</a>
-        <a href = "#" style="--i:4">Achievements</a>
-        <a href = "#" style="--i:5">contact</a>
+        <a href ="#" style="--i:1" class=" nav__link active ">Home</a>
+        <a href = "#" style="--i:2" class="nav__link">About</a>
+        <a href = "#" style="--i:3" class="nav__link">Skill</a>
+        <a href = "#" style="--i:4" class="nav__link">Achievements</a>
+        <a href = "#" style="--i:5" class="nav__link">contact</a>
+    </div>
+    <div class="nav-main">
+        <div class="nav-header">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
        </nav>
     </header>
     <section class="home">
@@ -150,7 +157,6 @@
     <h2 class="achieve-h2">External College</h2>
     <li>Winner in debugging at St peter's College.</li>
     <li>Winner in Paper Presentation at St peter's College .</li>
-    <li>Runner in Codeless canvas in 2023.</li>
    </div>
    <div>
     <div class="achieve-content2">
@@ -162,6 +168,32 @@
        <div>
        </section>
 </section>
+ <!--===== CONTACT =====-->
+ <section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+         Name:<input type="text" placeholder="Name" class="contact__input"><br>
+         Email:<input type="mail" placeholder="Email" class="contact__input"><br>
+            <input type="button" value="Submit" class="contact__button button">
+            <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+        </form>
+    </div>
+</section>
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer">
+<p class="footer__title">Keerthana Rajaram</p>
+<div class="footer__social">
+    <a href="#" class="footer__icon"><i class='bx bxl-instagram' >Keerthiram</i></a>
+    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i>Keerthi ram</a>
+    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i>Keerthiram2612</a>
+</div>
+</div>
+<p class="footer__copy">&#169; keerthanaRajaram. All rigths reserved</p>
+</footer>
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </body>

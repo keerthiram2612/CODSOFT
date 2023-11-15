@@ -21,3 +21,9 @@ if(careerIndex === careers.length){
 }
 setTimeout(updateText, 400);
 }
+const bar = document.querySelector(".fa-bars")
+const navbar = document.querySelector(".navbar");
+
+bar.addEventListener("click",()=>{
+   navbar.classList.toggle("show-menu")
+})
