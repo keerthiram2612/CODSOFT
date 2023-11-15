@@ -41,11 +41,11 @@ body{
    animation: slideTop .5s ease forwards;
 }
 .navbar a:hover{
-    color: skyblue;
+    color: aqua;
 
 }
 .about-p{
-    color: black;
+    color: aqua;
 }
 .about-text{
     align-items: center;
@@ -64,8 +64,13 @@ body{
 .about-h4{
     font-size: 28px;
     margin-top: 20px;
-    color: black;
+    color: aqua;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
+}
+.about-span{
+    color: white;
 }
 .html{
     width: 100px;
@@ -88,19 +93,22 @@ body{
 }
 
 .about-h1{
-    color: black;
-    font-size: 30px;
+    color: aqua;
+    font-size: 50px;
     text-decoration: underline;
 }
 .table-about{
     color: white;
     
 }
+.logo-span{
+    color: aqua;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 1%;
     margin-top: 50px;
     border: 2px solid aqua;
     color: white;
@@ -115,7 +123,7 @@ table {
   }
   
 .about-my{
-    color: black;
+    color: aqua;
     font-size: 20px;
     margin-top: 5px;
 }
@@ -123,22 +131,69 @@ table {
     font-size: 20px;
 }
 .about-h2{
-    color: black;
+    color: white;
     margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .about-img{
     width: 600px;
     background-color: black;
     margin-left: 90px;
-}
+    transition: 2s linear;
+} 
 .about-text{
     width: 500px;
     height: 350px;
     float: right;
     margin-top: 60px;
     transform: translate(-40%, -50%);
-    background-color: aqua;
+    background-color: black;
     border-radius: 20px;
+    margin-right: 20px;
+    text-align: justify
+}
+.achieve{
+    color: white;
+    background-color: black;
+    height: 100vh;
+    border-top: 3px solid white;
+    margin-top: -50px;
+    display: flex;
+}
+.achieve-content1{
+    max-width: 350px;
+    text-align: justify;
+    height: 200px;
+    border: 4px solid aqua;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 100px;
+} 
+.achieve-content2{
+    max-width: 350px;
+    text-align: justify;
+    height: 200px;
+    border: 4px solid aqua;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 5px;
+} 
+.achieve-h2{
+    color: aqua;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.achieve-content h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.achieve1 h1{
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-decoration: underline aqua;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media(max-width: 650px){
     .navbar a{
@@ -166,7 +221,15 @@ table {
         transform: translateX(-10%);
         margin-top: 10px;
     }
-
+    .achieve{
+        flex-direction: column;
+    }
+    .achieve-content1{
+        margin-left: 55px;
+    }
+    .achieve-content2{
+        margin-left: 55px;
+    }
 }
 .home{
     position: relative;
@@ -259,6 +322,9 @@ button:hover{
     text-align: center;
     font-size: 70px;
 }
+.skills-h1:hover{
+    color: aqua;
+}
 
 @keyframes slideRight{
     0%{
@@ -320,7 +386,7 @@ button:hover{
 .skills__container {
     row-gap: 2rem;
     text-align: center;
-    height: 100vh;
+    height: 50vh;
   }
   
   .skills__subtitle {
