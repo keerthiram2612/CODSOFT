@@ -257,7 +257,15 @@ table {
 .logo{
     margin-top: -40px;
 }
-    
+.contact__container{
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    align-items: center; 
+    transform: translate(10%,-60%);
+    color: black;
+ }
+
    
 }
 @media (min-width:800px){
@@ -580,12 +588,8 @@ button:hover{
     background-color: black;
   }
   .contact__container{
-    width: 550px;
-    background-color: aqua;
-    height: 300px;
-    text-align: center;
-    align-items: center; 
-    transform: translate(70%,-60%);
+      transform: translate(50%,-50%);
+      color: black;
   }
   input{
     padding: 15px;
