@@ -177,7 +177,7 @@ table {
     border: 4px solid aqua;
     border-radius: 20px;
     margin-top: 150px;
-    margin-left: 5px;
+    margin-left: 10px;
     animation: slideTop 1s ease forwards;
 } 
 
@@ -191,7 +191,7 @@ table {
     margin-top: 10px;
 }
 .achieve1 h1{
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 0px;
     margin-left: 10px;
     text-decoration: underline aqua;
@@ -230,15 +230,19 @@ table {
         flex-direction: column;
     }
     .achieve-content1{
-        margin-left: 55px;
+        margin-left: 60px;
         margin-top: 40px;
     }
     .achieve-content2{
-        margin-left: 55px;
+        margin-left: 60px;
         margin-top: 10px;
     }
-    .nav__toggle{
-
+    .section-contact{
+        display: none;
+    }
+    .achieve1 h1{
+        font-size: 30px;
+        margin-top: 10px;
     }
     .navbar a{
         color: black;
@@ -254,16 +258,19 @@ table {
         transition: all .3s linear;
          height: 0;
 }
+.social{
+    display: none;
+}
 .logo{
     margin-top: -40px;
 }
 .contact__container{
-    width: 350px;
+    width: 250px;
     height: 250px;
     text-align: center;
     align-items: center; 
-    transform: translate(10%,-60%);
     color: black;
+    justify-content: center;
  }
 
    
@@ -281,8 +288,20 @@ table {
     cursor: pointer;
 
 }
+.social{
+    text-align: center;
+    transform: translateY(900%);
+
+}
 .fa-bars:hover{
     color: black;
+}
+.section-contact{
+    color: black;
+    text-align: center;
+    transform: translateY(-280%);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-header{
     display: flex;
